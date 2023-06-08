@@ -4,6 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
 
+@media (max-width: 700px){
+    header{
+        font-size: 12px;
+    }
+}
+
+
 :root{
     /* Paleta de cores */
     --cor1: #819CB8;
@@ -72,15 +79,29 @@ main{
 
 .campo_filtro{
     width: 600px;
-    height: 100px;
+    height: 50px;
     background-color: var(--cor5);
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cb_filtro{
+    width: 100px;
+    height: 30px;
+    margin:0px 10px 0px 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: var(--cor2);
 }
 
 .campo_tabela{
     background-color: var(--cor5);
-    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
     margin: auto;
     padding: 5px;
 }
@@ -93,7 +114,7 @@ table{
 
 table > th, td{
     background-color: white;
-    padding: 8px;
+    padding: 10px;
 }
 
 .numero, .nome{
