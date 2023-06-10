@@ -4,12 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
 
-@media (max-width: 700px){
-    header{
-        font-size: 12px;
-    }
-}
-
 
 :root{
     /* Paleta de cores */
@@ -30,18 +24,22 @@
 
 body{
     background-color: var(--cor5);
+    display: flex;
+    flex-flow: column;
+    height: 100vh; 
 }
 
 header{
     height: 50px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
-    margin: auto;
     background-image: linear-gradient(to top, var(--cor2), var(--cor1));
     color: var(--cor5);
     padding: 30px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.607);
+    flex-grow: 0;
+    flex-basis: auto;
 }
 
 nav{
@@ -49,11 +47,13 @@ nav{
     padding: 10px;
     text-align: center;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.295);
+    flex-grow: 0;
+    flex-basis: auto;
 }
 
 nav > a{
     color: var(--cor5);
-    font-family: 'Bebas Neue', sans-serif;;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 1.2em;
     text-decoration: none;
     padding: 10px;
@@ -68,17 +68,20 @@ nav > a:hover{
 }
 
 main{
-    width: 600px;
+    max-width: 600px;
     background-color: var(--cor4);
     margin: auto;
     margin-top: 1px;
-    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 25px;
+    border-radius: 0px 0px 10px 10px;
     padding: 15px;
     box-shadow: 0px 4px 2px 4px rgba(0, 0, 0, 0.31);
+    flex-grow: 1;
+    flex-basis: auto;
 }
 
 .campo_filtro{
-    width: 600px;
+    max-width: 600px;
     height: 50px;
     background-color: var(--cor5);
     margin: auto;
@@ -96,7 +99,7 @@ main{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.2em;
     font-weight: lighter;
-    color: var(--cor2);
+    color: black;
 }
 
 .campo_tabela{
@@ -134,4 +137,22 @@ footer{
     color: var(--cor5);
     text-align: center;
     padding: 15px;
+    flex-grow: 0;
+    flex-basis: 25px;
+}
+
+@media (max-width: 600px) {
+    header{
+        font-size: 1em;
+        height: 30px;
+        padding: 15px;
+    }
+    
+    nav{
+        font-size: 0.9em;
+    }
+
+    table{
+        width: 350px;
+    }
 }
