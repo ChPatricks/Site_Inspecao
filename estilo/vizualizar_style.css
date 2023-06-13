@@ -122,6 +122,16 @@ table > th, td{
     padding: 10px;
 }
 
+.arquivo > a, .download > a{
+    text-decoration: none;
+    color: black;
+}
+
+.arquivo > a:hover, .download > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
 .numero, .nome{
     text-align: left;
 }
