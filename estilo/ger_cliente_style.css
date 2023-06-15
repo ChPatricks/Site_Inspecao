@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-/* referencia
-https://www.youtube.com/watch?v=VCsNIRXNsmY
-*/
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -19,12 +15,13 @@ body{
     padding: 20px;
     border-radius: 20px;
     color: white;
-    width: 650px;
 }
 
 fieldset{
     padding: 20px;
     border: 3px solid dodgerblue;
+    width: 450px;
+
 }
 
 legend{
