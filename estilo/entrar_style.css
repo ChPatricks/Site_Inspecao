@@ -97,7 +97,7 @@ legend{
     transform: translate(-50%,-50%);
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     body{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
@@ -107,7 +107,7 @@ legend{
     .box{
         position: absolute;
         top: 50%;
-        left: 90%;
+        left: 50%;
         transform: translate(-50%, -50%);
         background-color: rgba(0, 0, 0, 0.6);
         border-radius: 20px;
@@ -117,7 +117,6 @@ legend{
     }
     
     fieldset{
-        padding: 10px;
         border: 3px solid dodgerblue;
         min-width: 0;
     }
