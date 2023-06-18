@@ -110,7 +110,7 @@ legend{
 @media (max-width: 400px){
     body{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
+        font-size: 14px;
         background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
     }
     
@@ -138,7 +138,7 @@ legend{
     }
     
     legend{
-        padding: 10px;
+        padding: 12px;
         border: 1px solid dodgerblue;
         background-color: dodgerblue;
         border-radius: 8px;
@@ -159,7 +159,7 @@ legend{
         letter-spacing: 2px;
         width: 100%;
         padding-bottom: 5px;
-        font-size: 20px;
+        font-size: 14px;
     }
     
     .labelInput{
@@ -173,7 +173,7 @@ legend{
     .inputUser:focus ~ .labelInput,
     .inputUser:valid ~ .labelInput{
         top: -20px;
-        font-size: 15px;
+        font-size: 11px;
         color: dodgerblue;
         transition: 0.5s;
     }
@@ -182,11 +182,11 @@ legend{
         background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
         width: 100%;
         border: none;
-        border-radius: 15px;
+        border-radius: 10px;
         outline: none;
-        font-size: 20px;
+        font-size: 14px;
         cursor: pointer;
-        padding: 15px;
+        padding: 10px;
         color: white;
         margin-bottom: 20px;
     }
