@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE</title>
+    <style>
+        .box1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background-color: blueviolet;
+        }
+
+        .box2{
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70px;
+            height: 40px;
+            background-color: rgb(78, 8, 144);
+            border: 2px solid black;
+            color: white;
+            text-align: center;
+        }
+
+        .box2 > p{
+            margin: 10px 0px 0px 0px;
+            vertical-align: middle;
+        }
+
+        .box3{
+            position: relative;
+            top: 40px;
+            margin: auto;
+            width: 90%;
+            height:85%;
+            background: transparent;
+            border: 2px solid rgba(79, 8, 144, 0.785);
+        }
+
+        @media (max-width: 400px) {
+            .box1{
+            width: 100%;
+            height: 98vh;
+            background-color: blueviolet;
+            }
+
+            .box2{
+                position: absolute;
+                top: 40px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 70px;
+                height: 40px;
+                background-color: rgb(78, 8, 144);
+                border: 2px solid black;
+                color: white;
+                text-align: center;
+            }
+
+            .box2 > p{
+                margin: 10px 0px 0px 0px;
+                vertical-align: middle;
+            }
+
+            .box3{
+                position: relative;
+                top: 40px;
+                margin: auto;
+                width: 90%;
+                height:85%;
+                background: transparent;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box3"></div>
+        <div class="box2">
+            <p>login</p>
+        </div>
+         
+    </div>
+    
+</body>
+</html>

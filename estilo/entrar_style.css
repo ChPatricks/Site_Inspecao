@@ -8,6 +8,8 @@ body{
 
 .box{
     position: absolute;
+    width: 450px;
+    height: 600px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -17,11 +19,19 @@ body{
     color: white;
 }
 
+form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 fieldset{
     padding: 20px;
     border: 3px solid dodgerblue;
-    width: 450px;
-    height: 600px;
+    height: 90%;
 }
 
 legend{
@@ -97,10 +107,10 @@ legend{
     transform: translate(-50%,-50%);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px){
     body{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 10px;
         background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
     }
     
@@ -110,19 +120,20 @@ legend{
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: rgba(0, 0, 0, 0.6);
+        padding: 20px;
         border-radius: 20px;
         color: white;
-        width: 100%;
-        height: 80vh;
     }
     
     fieldset{
+        padding: 20px;
         border: 3px solid dodgerblue;
-        min-width: 0;
+        width: 450px;
+        height: 600px;
     }
     
     legend{
-        padding: 5px;
+        padding: 10px;
         border: 1px solid dodgerblue;
         background-color: dodgerblue;
         border-radius: 8px;
@@ -130,7 +141,7 @@ legend{
     }
     
     .inputBox{
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         position: relative;
     }
     
@@ -143,7 +154,7 @@ legend{
         letter-spacing: 2px;
         width: 100%;
         padding-bottom: 5px;
-        font-size: 14px;
+        font-size: 20px;
     }
     
     .labelInput{
@@ -166,11 +177,11 @@ legend{
         background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
         width: 100%;
         border: none;
-        border-radius: 10px;
+        border-radius: 15px;
         outline: none;
-        font-size: 14px;
+        font-size: 20px;
         cursor: pointer;
-        padding: 10px;
+        padding: 15px;
         color: white;
         margin-bottom: 20px;
     }
@@ -193,4 +204,5 @@ legend{
         left: 50%;
         transform: translate(-50%,-50%);
     }
+
 }
