@@ -23,7 +23,7 @@
 }
 
 body{
-    background-color: var(--cor5);
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
     display: flex;
     flex-flow: column;
     height: 100vh; 
@@ -34,7 +34,7 @@ header{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.8em;
     text-align: center;
-    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    background-color: rgba(0, 0, 0, 0.6);
     color: var(--cor5);
     padding: 30px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.607);
@@ -43,7 +43,7 @@ header{
 }
 
 nav{
-    background-color:var(--cor2);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
     text-align: center;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.295);
@@ -69,7 +69,7 @@ nav > a:hover{
 
 main{
     max-width: 600px;
-    background-color: var(--cor4);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: auto;
     margin-top: 1px;
     margin-bottom: 25px;
@@ -83,7 +83,7 @@ main{
 .campo_filtro{
     max-width: 600px;
     height: 50px;
-    background-color: var(--cor5);
+    background-color: transparent;
     margin: auto;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -113,13 +113,13 @@ main{
 
 table{
     width: 500px;
-    background-color: lightgray;
     margin: auto;
 }
 
 table > th, td{
     background-color: white;
     padding: 10px;
+    border:1px solid lightgray;
 }
 
 .arquivo > a, .download > a{
@@ -145,12 +145,13 @@ table > th, td{
 }
 
 footer{
-    background-color: var(--cor2);
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));;
     color: var(--cor5);
     text-align: center;
     padding: 15px;
     flex-grow: 0;
     flex-basis: 25px;
+    border-top: 2px solid black;
 }
 
 @media (max-width: 500px) {
