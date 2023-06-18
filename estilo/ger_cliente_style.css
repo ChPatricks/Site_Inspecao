@@ -10,14 +10,13 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 450px;
-    height: 600px;
+    width: 380px;
+    height: 725px;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 20px;
     color: white;
-    height: 80vh;
 }
 
 form{
@@ -33,6 +32,7 @@ fieldset{
     padding: 20px;
     border: 3px solid dodgerblue;
     height: 93%;
+    border-radius: 20px;
 }
 
 legend{
@@ -115,12 +115,13 @@ legend{
     
     form{
         width: 90%;
-        height: 85%;
+        height: 600px;
     }
 
     fieldset{
         padding: 20px;
         border: 3px solid dodgerblue;
+        height: 93%;
         border-radius: 20px;
     }
     
@@ -133,7 +134,7 @@ legend{
     }
     
     .inputBox{
-        margin-bottom: 50px;
+        margin-bottom: 45px;
         position: relative;
     }
     
