@@ -129,12 +129,13 @@ legend{
     
     form{
         width: 90%;
-        height: 90%;
+        height: 85%;
     }
 
     fieldset{
         padding: 20px;
         border: 3px solid dodgerblue;
+        border-radius: 20px;
     }
     
     legend{
