@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Clientes</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/ger_relatorio_style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerênciar Relatórios</h1>
+    </header>
+    <nav>
+        <a href="gerenciar_clientes.html" class="menu1">Gerenciar Clientes</a>
+        <a href="gerenciar_relatorios.html" class="menu2">Gerenciar Relatórios</a>
+        <a href="vizualizar_relatorios.html" class=" menu3">Vizualizar Relatórios</a>
+    </nav>
+    <main class="box">
+        <form action="#">
+            <fieldset>
+                <legend>
+                    <select class="cb_filtro" name="produto" id="produto">
+                        <option value="vizu1">Produto</option>
+                        <option value="camisa">Camisa</option>
+                        <option value="eixo">Eixo</option>
+                        <option value="flange">Flange</option>
+                        <option value="pente">Pente</option>
+                        <option value="bagaceira">Bagaceira</option>
+                    </select>
+                </legend>
+                <div class="inputBox">
+                    <input type="text" name="grupo" id="grupo" class="inputUser" required>
+                    <label for="grupo" class="labelInput">Diâmetro Externo</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="unidade" id="unidade" class="inputUser" required>
+                    <label for="unidade" class="labelInput">Comprimento Total</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="unidade" id="unidade" class="inputUser" required>
+                    <label for="unidade" class="labelInput">Apertos</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="representante" id="representante" class="inputUser" required>
+                    <label for="representante" class="labelInput">Face Primeiro Friso (LE)</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="tel1" id="tel1" class="inputUser" required>
+                    <label for="tel1" class="labelInput">Face Primeiro Friso (LD)</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Passo</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Crista</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Fundo</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Grau</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Altura Total Friso</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Altura Meio Friso</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Friso Central</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">C.C Furação do Flange</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Rosca/Profundidade</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">C.C Galerias</label>
+                </div>
+                <button type="submit" name="submit" id="submit"><strong>Gravar Relatório</strong>
+                </button>
+            </fieldset> 
+        </form>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

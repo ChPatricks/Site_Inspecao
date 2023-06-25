@@ -107,11 +107,22 @@ fieldset{
 }
 
 legend{
-    padding: 10px;
+    padding: 8px;
     border: 1px solid dodgerblue;
     background-color: dodgerblue;
     border-radius: 8px;
     text-align: center;
+}
+
+.cb_filtro{
+    height: 30px;
+    margin:0px 5px 0px 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color:black;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 .inputBox{
