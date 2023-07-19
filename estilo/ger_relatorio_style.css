@@ -256,7 +256,7 @@ footer{
         margin: 0px auto 25px auto;
         background-color: rgba(0, 0, 0, 0.6);
         padding: 0px;
-        padding-bottom: 70px;
+        padding-bottom: 30px;
         border-radius: 0px 0px 10px 10px;
         box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.31);
         flex-grow: 1;
@@ -266,7 +266,7 @@ footer{
 
     form{
         display: block;
-        margin: 40px auto auto auto;
+        margin: 20px auto auto auto;
         width: 90%;
         height: 95%;
         top: 0%;
@@ -278,19 +278,23 @@ footer{
         height: 100%;
         padding: 20px;
         border: 3px solid dodgerblue;
-        height: 93%;
+        height: max-content;
         border-radius: 20px;
     }
     
     legend{
-        display: none;
-        padding: 12px;
+        padding: 5px;
         border: 1px solid dodgerblue;
         background-color: dodgerblue;
         border-radius: 8px;
         text-align: center;
     }
     
+    .inputBox{
+        margin-bottom: 45px;
+        position: relative;
+    }
+
     .inputBox{
         margin-bottom: 45px;
         position: relative;
@@ -322,6 +326,18 @@ footer{
         font-size: 11px;
         color: dodgerblue;
         transition: 0.5s;
+    }
+
+    .cb_form{
+        height: 27px;
+        margin:0px;
+        padding-bottom: 5px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        color:black;
+        border-radius: 5px;
+        border: 2px solid black;
     }
     
     #submit{
